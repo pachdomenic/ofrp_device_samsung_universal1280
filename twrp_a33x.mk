@@ -28,13 +28,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/a33x/device.mk)
+$(call inherit-product, device/samsung/universal1280/a33x/device.mk)
 
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a33x/recovery/root,recovery/root)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/universal1280/a33x/recovery/root,recovery/root)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := twrp_a33x
