@@ -1,4 +1,4 @@
-# Orange Fox Device Tree for the Samsung Galaxy A33 5G (Exynos)
+# Orange Fox Device Tree for the Exynos 1280 devices
 
 ## Current Targets:
 a33x
